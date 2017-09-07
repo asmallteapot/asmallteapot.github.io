@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/asmallteapot
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://asmallteapot.github.io
+  * I am asmallteapot (https://keybase.io/asmallteapot) on keybase.
+  * I have a public key ASCNlIxuK0-RFIb0Ahx9Q8jQDe-ZUVoew19FIfB52TusUgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01208d948c6e2b4f911486f4021c7d43c8d00def99515a1ec35f4521f079d93bac520a",
+      "host": "keybase.io",
+      "kid": "01208d948c6e2b4f911486f4021c7d43c8d00def99515a1ec35f4521f079d93bac520a",
+      "uid": "61498a4982bba24d03a77f59ef0a0e19",
+      "username": "asmallteapot"
+    },
+    "merkle_root": {
+      "ctime": 1504778684,
+      "hash": "8ade8609b7308e7f570fa61bd664a0f7aa042414efdc5da895613707ab00bdd6ecc235545be4f2f2d934c7944c6edff7b249fee82bf260121c3fcb1d01ba3e28",
+      "hash_meta": "e55f946dd50e52130118af03920c6d9a9a52613518edf4936173dd065133b821",
+      "seqno": 1372389
+    },
+    "service": {
+      "hostname": "asmallteapot.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.29"
+  },
+  "ctime": 1504778728,
+  "expire_in": 504576000,
+  "prev": "00796a8e1f1184b3bac62ee5c345c07445813340b13a86052cb170fca2de4e67",
+  "seqno": 26,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgjZSMbitPkRSG9AIcfUPI0A3vmVFaHsNfRSHwedk7rFIKp3BheWxvYWTFA1N7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwOGQ5NDhjNmUyYjRmOTExNDg2ZjQwMjFjN2Q0M2M4ZDAwZGVmOTk1MTVhMWVjMzVmNDUyMWYwNzlkOTNiYWM1MjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwOGQ5NDhjNmUyYjRmOTExNDg2ZjQwMjFjN2Q0M2M4ZDAwZGVmOTk1MTVhMWVjMzVmNDUyMWYwNzlkOTNiYWM1MjBhIiwidWlkIjoiNjE0OThhNDk4MmJiYTI0ZDAzYTc3ZjU5ZWYwYTBlMTkiLCJ1c2VybmFtZSI6ImFzbWFsbHRlYXBvdCJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUwNDc3ODY4NCwiaGFzaCI6IjhhZGU4NjA5YjczMDhlN2Y1NzBmYTYxYmQ2NjRhMGY3YWEwNDI0MTRlZmRjNWRhODk1NjEzNzA3YWIwMGJkZDZlY2MyMzU1NDViZTRmMmYyZDkzNGM3OTQ0YzZlZGZmN2IyNDlmZWU4MmJmMjYwMTIxYzNmY2IxZDAxYmEzZTI4IiwiaGFzaF9tZXRhIjoiZTU1Zjk0NmRkNTBlNTIxMzAxMThhZjAzOTIwYzZkOWE5YTUyNjEzNTE4ZWRmNDkzNjE3M2RkMDY1MTMzYjgyMSIsInNlcW5vIjoxMzcyMzg5fSwic2VydmljZSI6eyJob3N0bmFtZSI6ImFzbWFsbHRlYXBvdC5naXRodWIuaW8iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4yOSJ9LCJjdGltZSI6MTUwNDc3ODcyOCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiIwMDc5NmE4ZTFmMTE4NGIzYmFjNjJlZTVjMzQ1YzA3NDQ1ODEzMzQwYjEzYTg2MDUyY2IxNzBmY2EyZGU0ZTY3Iiwic2Vxbm8iOjI2LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQMGNzjPCy5o6ScZMidwsJN3YAfL/IkJNT3UZpiyGUn+dtSggkuni1geep5K82xmH5a32R20z4bN+k7H8rdml8gWoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCCQiB7vzEowlErqNEHM9JtGrEDe8tlDY9cIEBuYxW4BQaN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/asmallteapot
+
+==================================================================
