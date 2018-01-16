@@ -1,12 +1,30 @@
 header > nav > ul {
+	display: flex;
+	flex-direction: row;
 	list-style: none;
 }
 
+header > nav > ul > li {
+	margin: 1em;
+}
+
+a:link {
+	/* trans blue*/
+	color: #5bcefa;
+}
+
+a:visited {
+	/* trans pink */
+	color: #f5a9b8;
+}
+
 span.name {
+	/* trans pink */
 	color: #f5a9b8;
 }
 
 span.name:hover {
+	/* trans blue */
 	color: #5bcefa;
 }
 
