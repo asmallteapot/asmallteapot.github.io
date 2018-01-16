@@ -6,3 +6,7 @@ span.name {
 	color: #f5a9b8;
 }
 
+span.name:hover {
+	color: #5bcefa;
+}
+
