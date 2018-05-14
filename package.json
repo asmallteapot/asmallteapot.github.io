@@ -1,0 +1,19 @@
+{
+  "name": "asmallteapot.github.io",
+  "version": "1.0.0",
+  "description": "A simple boilerplate for webpack and jekyll integration.",
+  "main": "bundle.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asmallteapot/asmallteapot.github.io.git"
+  },
+  "author": "Ellen Teapot",
+  "license": "CC-BY-NC-SA-4.0",
+  "homepage": "https://asmallteapot.github.io",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3"
+  }
+}
