@@ -1,3 +1,17 @@
 include: [".well-known"]
 exclude: ['node_modules']
+strict_front_matter: true
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "site"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "site"
 
