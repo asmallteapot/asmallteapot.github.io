@@ -11,6 +11,8 @@
   "license": "CC-BY-NC-SA-4.0",
   "homepage": "https://asmallteapot.github.io",
   "devDependencies": {
+    "css-loader": "^0.28.11",
+    "mini-css-extract-plugin": "^0.4.0",
     "webpack": "^4.8.3",
     "webpack-cli": "^2.1.3"
   }

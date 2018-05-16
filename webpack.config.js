@@ -1,14 +1,28 @@
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const path = require('path');
 
 module.exports = {
 	mode: 'none',
-	entry: './webpack/main.js',
+	entry: './webpack/site.js',
 	output: {
-		path: path.resolve(__dirname, 'assets/javascripts/'),
-		filename: 'bundle.js'
+		path: path.resolve(__dirname, 'assets/'),
+		filename: 'site.js'
 	},
+	plugins: [
+		new MiniCssExtractPlugin({
+			filename: 'site.css'
+		})
+	],
 	module: {
-		rules: []
+		rules: [
+			{
+				test: /\.css$/,
+				use: [
+					{ loader: MiniCssExtractPlugin.loader },
+					{ loader: 'css-loader' }
+				]
+			}
+		]
 	}
 };
 
