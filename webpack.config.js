@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
 	mode: 'none',
-	entry: './webpack/site.js',
+	entry: './_src/site.js',
 	output: {
 		path: path.resolve(__dirname, 'assets/'),
 		filename: 'site.js'
@@ -16,10 +16,11 @@ module.exports = {
 	module: {
 		rules: [
 			{
-				test: /\.css$/,
+				test: /\.(css|scss)$/,
 				use: [
 					{ loader: MiniCssExtractPlugin.loader },
-					{ loader: 'css-loader' }
+					{ loader: 'css-loader' },
+					{ loader: 'sass-loader'}
 				]
 			}
 		]
