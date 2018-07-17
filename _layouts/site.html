@@ -4,9 +4,14 @@
 	{%- include head.html -%}
 </head>
 <body>
-	<div id="site" class="container">
-	{{ content }}
-	</div>
+	{%- include nav.html -%}
+	<main role="main" class="container">
+		<div class="row">
+			<div class="col">	
+				{{ content }}
+			</div>
+		</div>
+	</main>
 </body>
 </html>
 

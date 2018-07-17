@@ -1,45 +1,12 @@
+@import "theme";
 @import "node_modules/bootstrap/scss/bootstrap";
 
-header > h1 {
-	display: inline-flex;
+body {
+	background-color: $gray-400;
 }
 
-header > nav {
-	display: inline-flex;
-	flex-direction: row;
-}
-
-header > nav > ul {
-	display: inline-flex;
-	flex-direction: row;
-
-	list-style: none;
-
-	padding: 0;
-	margin: 0;
-}
-
-header > nav > ul > li {
-	margin: 1em;
-}
-
-a:link {
-	/* trans blue*/
-	color: #5bcefa;
-}
-
-a:visited {
-	/* trans pink */
-	color: #f5a9b8;
-}
-
-span.name {
-	/* trans pink */
-	color: #f5a9b8;
-}
-
-span.name:hover {
-	/* trans blue */
-	color: #5bcefa;
+main {
+	background-color: $light;
+	min-height: 100vh;
 }
 
