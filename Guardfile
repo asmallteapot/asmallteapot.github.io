@@ -21,6 +21,10 @@ guard :rubocop, run_on_start: true do
   watch(%r{(?:.+/)?\.rubocop(?:_todo)?\.yml$}) { |m| File.dirname(m[0]) }
 end
 
+guard 'npm' do
+  watch('package.json')
+end
+
 guard :webpack
 
 guard 'jekyll-plus', run_on_start: true, serve: true do
