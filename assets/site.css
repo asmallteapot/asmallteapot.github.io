@@ -14495,5 +14495,6 @@ body {
 
 main {
   background-color: #f8f9fa;
-  min-height: 100vh; }
+  min-height: 100vh;
+  padding-top: 1rem; }
 
