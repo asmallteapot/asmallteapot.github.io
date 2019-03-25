@@ -14490,6 +14490,9 @@ a.text-blue:hover, a.text-blue:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+nav#site-nav {
+  background: repeating-linear-gradient(#5bcefa 0%, #5bcefa 5%, #f5a9b8 6%, #f5a9b8 10%, #343a40 11%, #343a40 100%); }
+
 body {
   background-color: #ced4da; }
 

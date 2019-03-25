@@ -1,6 +1,17 @@
 @import "theme";
 @import "node_modules/bootstrap/scss/bootstrap";
 
+nav#site-nav {
+	background: repeating-linear-gradient(
+		theme-color("blue") 0%,
+		theme-color("blue") 5%,
+		theme-color("pink") 6%,
+		theme-color("pink") 10%,
+		theme-color("dark") 11%,
+		theme-color("dark") 100%
+	);
+}
+
 body {
 	background-color: $gray-400;
 }
